@@ -1,9 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Author: Gift Tangsupakij
 # Date: 12/16/2021
-# Description:
+# Description: This file contains a function that converts integers to Roman numerals
 
-NON_INT_ERR_MSG = "num must be an integer"
-OUT_RANGE_ERR_MSG = "num must be greater than zero and less than 4000"
+
+# Error messages
+NON_INT_ERR_MSG = "Input number must be an integer"
+OUT_RANGE_ERR_MSG = "Input number must be greater than zero and less than 4000"
+
 
 def integerToRoman(num: int) -> str:
     """
